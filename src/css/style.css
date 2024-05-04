@@ -5,3 +5,52 @@
 * {
     font-family: "Montserrat Alternates", sans-serif;
 }
+
+/* No hay una forma para ajustar el tamaño de las imagenes en bootstrap 
+entonces le doy la clase size a la imagen y le doy el tamaño
+*/
+.size {
+    width: auto;
+    height: 350px;
+}
+
+@media only screen and (min-width: 476px) {
+    .card {
+        width: 25rem;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .card {
+        width: 27rem;
+    }
+}
+
+.logo {
+    width: 130px;
+    height: 70px;
+}
+
+#mascotas-destacadas,
+#mascotas,
+#mascotas-mismo-dueño {
+    scroll-margin-top: 80px;
+    scroll-behavior: smooth;
+}
+
+.nav-link:hover {
+    background-color: #2bc322;
+}
+
+@media only screen and (max-width: 600px)  {
+    header {
+        height: 200px;
+    }
+
+    #mascotas-destacadas,
+    #mascotas,
+    #mascotas-mismo-dueño {
+        scroll-margin-top: 300px;
+        scroll-behavior: smooth;
+    }
+}

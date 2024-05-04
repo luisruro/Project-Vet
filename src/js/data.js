@@ -118,7 +118,7 @@ const pets = [
         breed: 'siamese',
         age: 4,
         weight: '12 kg',
-        condition: 'estable',
+        condition: 'stable',
         owner: {
             name: 'violeta',
             lastName: 'cadavid',

@@ -19,27 +19,144 @@
     <title>Veterinaria</title>
 </head>
 
-<body>
-    <header>
-        
-    </header>
+<body class="py-5 mt-5">
+    <!-- Este es el header -->
+    <header class="container-fluid z-index-5">
+        <section class="d-flex flex-wrap justify-content-around align-items-center py-1 px-5 mb-4 border-bottom fixed-top bg-l-gray personal">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="./public/images/Fondo-claro-logo.webp" class="logo" alt="logo riwi">
+            </a>
 
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#mascotas-destacadas" class="nav-link text-black fw-medium fs-4" aria-current="page">Mascotas destacadas</a></li>
+                <li class="nav-item"><a href="#mascotas" class="nav-link text-black fw-medium fs-4">Mascotas</a></li>
+                <li class="nav-item"><a href="#mascotas-mismo-dueño" class="nav-link text-black fw-medium fs-4">Mascotas del mismo dueño</a></li>
+            </ul>
+        </section>
+    </header>
+    <!-- Este es el main que contiene las tres secciones -->
     <main>
-        <section></section>
-        <section>
-            <h2></h2>
+        <section id="mascotas-destacadas" class="container-fluid">
+            <h2 class="text-center text-capitalize my-3">Mascotas Destacadas</h2>
+            <article class="same-owner row gap-2 justify-content-center align-items-center">
+                <div class="card pt-2 col-sm-12 col-md-4 col-lg-6 col-xl-6" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/474x/3b/98/79/3b98795091b780801424231c7cba7b5d.jpg"
+                        class="card-img-top img-thumbnail object-fit-fill size" alt="imagen de la mascota">
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre: tobi</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Especie: canine</li>
+                        <li class="list-group-item">Raza: bulldog</li>
+                        <li class="list-group-item">Edad: 1</li>
+                        <li class="list-group-item">Peso: 8 kg</li>
+                        <li class="list-group-item">Estado: stable</li>
+                        <li class="list-group-item">Dueño: juan</li>
+                    </ul>
+                </div>
+
+                <div class="card pt-2 col-sm-12 col-md-4 col-lg-6 col-xl-6" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/474x/62/84/92/62849218f55f3ded0103b6dda59a159d.jpg"
+                        class="card-img-top img-thumbnail object-fit-fill size" alt="imagen de la mascota">
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre: michi</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Especie: feline</li>
+                        <li class="list-group-item">Raza: siamese</li>
+                        <li class="list-group-item">Edad: 4</li>
+                        <li class="list-group-item">Peso: 12 kg</li>
+                        <li class="list-group-item">Estado: stable</li>
+                        <li class="list-group-item">Dueño: violeta</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <section id="mascotas" class="container-fluid">
+            <h2 class="text-center text-capitalize my-3">Mascotas</h2>
             <article class="pets"></article>
         </section>
-        <section></section>
-    </main>
 
+        <section id="mascotas-mismo-dueño" class="container-fluid">
+            <h2 class="text-center text-capitalize my-3">Mascotas del mismo dueño</h2>
+            <article class="same-owner row gap-2 justify-content-center align-items-center">
+                <div class="card pt-2 col-sm-12 col-md-4 col-lg-6 col-xl-6" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/474x/4a/d1/86/4ad186218f0842775de54a00f916f57c.jpg"
+                        class="card-img-top img-thumbnail object-fit-fill size" alt="imagen de la mascota">
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre: pelusa</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Especie: feline</li>
+                        <li class="list-group-item">Raza: persian</li>
+                        <li class="list-group-item">Edad: 4</li>
+                        <li class="list-group-item">Peso: 5 kg</li>
+                        <li class="list-group-item">Estado: critical</li>
+                        <li class="list-group-item">Dueño: orlando</li>
+                    </ul>
+                </div>
+
+                <div class="card pt-2 col-sm-12 col-md-4 col-lg-6 col-xl-6" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/474x/1f/8c/a9/1f8ca9570030e1dd70f9c0659a52cde3.jpg"
+                        class="card-img-top img-thumbnail object-fit-fill size" alt="imagen de la mascota">
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre: niño</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Especie: canine</li>
+                        <li class="list-group-item">Raza: alaskan malamuten</li>
+                        <li class="list-group-item">Edad: 6</li>
+                        <li class="list-group-item">Peso: 5 kg</li>
+                        <li class="list-group-item">Estado: critical</li>
+                        <li class="list-group-item">Dueño: orlando</li>
+                    </ul>
+                </div>
+
+                <div class="card pt-2 col-sm-12 col-md-4 col-lg-6 col-xl-6" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/474x/53/12/f7/5312f7252bf3df99864009ac0255cee5.jpg"
+                        class="card-img-top img-thumbnail object-fit-fill size" alt="imagen de la mascota">
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre: esmeralda</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Especie: feline</li>
+                        <li class="list-group-item">Raza: siberian</li>
+                        <li class="list-group-item">Edad: 3</li>
+                        <li class="list-group-item">Peso: 6 kg</li>
+                        <li class="list-group-item">Estado: stable</li>
+                        <li class="list-group-item">Dueño: aurelio</li>
+                    </ul>
+                </div>
+
+                <div class="card pt-2 col-sm-12 col-md-4 col-lg-6 col-xl-6" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/474x/40/b6/c6/40b6c6fbe45d8284118a541c229e28df.jpg"
+                        class="card-img-top img-thumbnail object-fit-fill size" alt="imagen de la mascota">
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre: puppy</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Especie: canine</li>
+                        <li class="list-group-item">Raza: golden retriever</li>
+                        <li class="list-group-item">Edad: 2</li>
+                        <li class="list-group-item">Peso: 22 kg</li>
+                        <li class="list-group-item">Estado: critical</li>
+                        <li class="list-group-item">Dueño: orlando</li>
+                    </ul>
+                </div>
+
+            </article>
+        </section>
+    </main>
+    <!-- Este es el footer -->
     <footer>
 
     </footer>
 
     <script type="module" src="./src/js/main.js"></script>
     <script src="./src/js/data.js"></script>
-    
+
 </body>
 
 </html>
