@@ -19,19 +19,22 @@
     <title>Veterinaria</title>
 </head>
 
-<body class="py-5 mt-5">
+<body class="py-5 mt-5 bg-green">
     <!-- Este es el header -->
-    <header class="container-fluid z-index-5">
-        <section class="d-flex flex-wrap justify-content-around align-items-center py-1 px-5 mb-4 border-bottom fixed-top bg-l-gray personal">
+    <header class="container-fluid z-index-5 ">
+        <section
+            class="d-flex flex-wrap justify-content-around align-items-center py-1 px-5 mb-4 border-bottom fixed-top bg-l-gray personal">
             <a href="/"
                 class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                 <img src="./public/images/Fondo-claro-logo.webp" class="logo" alt="logo riwi">
             </a>
 
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#mascotas-destacadas" class="nav-link text-black fw-medium fs-4" aria-current="page">Mascotas destacadas</a></li>
+                <li class="nav-item"><a href="#mascotas-destacadas" class="nav-link text-black fw-medium fs-4"
+                        aria-current="page">Mascotas destacadas</a></li>
                 <li class="nav-item"><a href="#mascotas" class="nav-link text-black fw-medium fs-4">Mascotas</a></li>
-                <li class="nav-item"><a href="#mascotas-mismo-dueño" class="nav-link text-black fw-medium fs-4">Mascotas del mismo dueño</a></li>
+                <li class="nav-item"><a href="#mascotas-mismo-dueño" class="nav-link text-black fw-medium fs-4">Mascotas
+                        del mismo dueño</a></li>
             </ul>
         </section>
     </header>
@@ -40,7 +43,8 @@
         <section id="mascotas-destacadas" class="container-fluid">
             <h2 class="text-center text-capitalize my-3">Mascotas Destacadas</h2>
             <article class="same-owner row gap-2 justify-content-center align-items-center">
-                <div class="card pt-2 col-sm-12 col-md-4 col-lg-6 col-xl-6" style="width: 18rem;">
+                <div class="card pt-2 col-sm-12 col-md-4 col-lg-6 col-xl-6 shadow-sm p-3 mb-5 bg-body-tertiary rounded"
+                    style="width: 18rem;">
                     <img src="https://i.pinimg.com/474x/3b/98/79/3b98795091b780801424231c7cba7b5d.jpg"
                         class="card-img-top img-thumbnail object-fit-fill size" alt="imagen de la mascota">
                     <div class="card-body">
@@ -56,7 +60,8 @@
                     </ul>
                 </div>
 
-                <div class="card pt-2 col-sm-12 col-md-4 col-lg-6 col-xl-6" style="width: 18rem;">
+                <div class="card pt-2 col-sm-12 col-md-4 col-lg-6 col-xl-6 shadow-sm p-3 mb-5 bg-body-tertiary rounded"
+                    style="width: 18rem;">
                     <img src="https://i.pinimg.com/474x/62/84/92/62849218f55f3ded0103b6dda59a159d.jpg"
                         class="card-img-top img-thumbnail object-fit-fill size" alt="imagen de la mascota">
                     <div class="card-body">
@@ -150,9 +155,24 @@
         </section>
     </main>
     <!-- Este es el footer -->
-    <footer>
 
+    <footer class="container">
+        <section class="d-flex flex-wrap justify-content-between align-items-center my-3 border-top">
+            <article class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <img src="./public/images/Fondo-claro-logo.webp" class="logo" alt="logo riwi">
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Riwi</span>
+            </article>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/people/Riwi/100092420949391/?locale=es_LA" target="_blank"><i class="bi bi-facebook fs-3 text-l-gray"></i></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/riwi.io/" target="_blank"><i class="bi bi-instagram fs-3 text-l-gray"></i></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/InfoRiwi4424" target="_blank"><i class="bi bi-twitter-x fs-3 text-l-gray"></i></a></li>
+            </ul>
+        </section>
     </footer>
+
 
     <script type="module" src="./src/js/main.js"></script>
     <script src="./src/js/data.js"></script>
